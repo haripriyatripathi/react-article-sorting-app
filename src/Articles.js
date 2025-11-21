@@ -6,7 +6,7 @@ function Articles({ articles }) {
           <th>title</th>
           <th>upvotes</th>
           <th>date</th>
-        </tr>
+    </tr>
       </thead>
 
       <tbody>
