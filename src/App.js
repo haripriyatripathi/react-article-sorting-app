@@ -10,7 +10,7 @@ function App() {
     const sorted = [...articles].sort((a, b) => b.upvotes - a.upvotes);
     setArticles(sorted);
   };
-
+  
   const sortByDate = () => {
     const sorted = [...articles].sort(
       (a, b) => new Date(b.date) - new Date(a.date)
